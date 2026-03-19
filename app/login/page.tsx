@@ -17,7 +17,40 @@ export default function LoginPage(){
 				<h1 className="text-3xl text-cyan-500 font-bold text-center">Welcome Back</h1>
 				<p className="text-md text-gray-300 mt-4 text-center">Sign in to continue to your dashboard</p>
 				<form className="mt-8">
-
+				<div>
+					<label  htmlFor="email" className="block text-sm mb-2 text-gray-300">
+						Email
+					</label>
+					<input
+						id="email"
+						type="email"
+						// value={email}
+						// onChange={(e) => setEmail(e.target.value)}
+						placeholder="you@example.com"
+						className="w-full px-4 py-3 bg-black/50 border border-cyan-500/30 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-500/20 transition-all"
+					/>
+				</div>
+				<div className="mt-4">
+					<label htmlFor="password" className="block text-sm mb-2 text-gray-300">
+						Password
+					</label>
+					<input
+						id="password"
+						type="password"
+						// value={Password}
+						// onChange={(e) => setPassword(e.target.value)}
+						placeholder="Enter your password"
+						className="w-full px-4 py-3 bg-black/50 border border-cyan-500/30 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-500/20 transition-all"
+					/>
+				</div>
+				<div className="flex justify-end mt-2">
+					<a href="#forgot-password" className="text-sm text-cyan-400 hover:text-cyan-200 transition-colors">
+						Forgot password?
+					</a>
+				</div>
+				<button type="submit" className="w-full mt-4 px-4 py-3 rounded-lg text-black font-bold bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 transition-all shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50">
+					Sign In
+				</button>
 				</form>
 			</AuthCard>
 		</AuthLayout>
