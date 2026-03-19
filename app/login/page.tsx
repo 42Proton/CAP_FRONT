@@ -40,9 +40,9 @@ export default function LoginPage(){
 					<AuthInput id="email" type="email" label="Email" placeholder="you@example.com" state={email} setState={setEmail}/>
 					<AuthInput id="password" type="password" label="Password" placeholder="Enter your password" state={password} setState={setPassword}/>
 					<div className="flex justify-end mt-2">
-						<a href="#forgot-password" className="text-sm text-cyan-400 hover:text-cyan-200 transition-colors">
+						<Link href="#forgot-password" className="text-sm text-cyan-400 hover:text-cyan-200 transition-colors">
 							Forgot password?
-						</a>
+						</Link>
 					</div>
 					<button type="submit" className="w-full mt-4 px-4 py-3 rounded-lg text-black font-bold bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 transition-all shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50">
 						Sign In
