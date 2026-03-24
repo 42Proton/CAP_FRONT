@@ -43,7 +43,8 @@ export default function MarketingLayout({children}: LayoutProps){
 				</nav>
 			</header>
 
-			<main className="flex-1">
+			<main className="flex-1 pt-28">
+				{children}
 			</main>
 
 			<footer>
