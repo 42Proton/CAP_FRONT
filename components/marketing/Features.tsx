@@ -1,4 +1,4 @@
-import FeaturesCard from "./FeaturesCard";
+import FeaturesCard from "../FeaturesCard";
 import { Shield, Zap, Code2, GitPullRequest, MessageSquare } from 'lucide-react';
 
 export default function Features(){

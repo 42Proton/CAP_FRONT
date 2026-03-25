@@ -1,6 +1,7 @@
 import Features from "@/components/marketing/Features";
 import HowItWorks from "@/components/marketing/HowItWorks";
 import LandingPageHero from "@/components/marketing/landingPageHero";
+import SeeItInAction from "@/components/marketing/SeeItInAction";
 
 export default function Home() {
 	return (
@@ -8,6 +9,7 @@ export default function Home() {
 			<LandingPageHero />
 			<HowItWorks />
 			<Features />
+			<SeeItInAction />
 		</>
 	);
 }
