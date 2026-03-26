@@ -51,8 +51,8 @@ export default function LoginPage(){
 			<div className="mt-6 text-center">
 				<p className="text-gray-400">
 					Don't have an account?{' '}
-					<Link href="/auth/register" className="text-cyan-400 hover:text-cyan-300 font-semibold transition-colors">
-						Register
+					<Link href="/auth/AccountTypeSelector" className="text-cyan-400 hover:text-cyan-300 font-semibold transition-colors">
+						Start Free
 					</Link>
 				</p>
 			</div>

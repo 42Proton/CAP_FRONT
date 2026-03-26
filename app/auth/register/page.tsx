@@ -8,6 +8,7 @@ import GithubButton from "@/components/GithubButton";
 import Link from "next/link";
 import {useState} from "react"
 
+
 export default function RegisterPage(){
 	const [email, setEmail] = useState('')
 	const [password, setPassword] = useState('')
