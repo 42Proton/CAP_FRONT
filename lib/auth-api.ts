@@ -41,3 +41,8 @@ export async function login(payload: LoginPayload) {
 	});
 }
 
+export async function getMe() {
+	return request<MeUser>("/auth/me", {
+		method: "GET",
+	});
+}
