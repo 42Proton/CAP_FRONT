@@ -1,10 +1,10 @@
 "use client"
-import AuthCard from "@/components/auth-card";
-import Divider from "@/components/auth-divider";
-import AuthHeader from "@/components/auth-header";
-import AuthInput from "@/components/auth-input";
-import AuthLogo from "@/components/auth-logo";
-import GithubButton from "@/components/GithubButton";
+import AuthCard from "@/components/auth/auth-card";
+import Divider from "@/components/auth/auth-divider";
+import AuthHeader from "@/components/auth/auth-header";
+import AuthInput from "@/components/auth/auth-input";
+import AuthLogo from "@/components/auth/auth-logo";
+import GithubButton from "@/components/auth/GithubButton";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";

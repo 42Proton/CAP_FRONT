@@ -1,5 +1,5 @@
 "use client"
-import AuthCard from '@/components/auth-card';
+import AuthCard from '@/components/auth/auth-card';
 import { useRouter } from 'next/navigation';
 
 export default function AccountTypeSelector(){
