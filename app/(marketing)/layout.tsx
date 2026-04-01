@@ -55,7 +55,7 @@ export default function MarketingLayout({children}: LayoutProps){
 						<Link href="/terms" className="text-gray-400 hover:text-white transition-colors">
 							Terms of Service
 						</Link>
-						<Link href="#PrivacyPolicy" className="text-gray-400 hover:text-white transition-colors">
+						<Link href="/PrivacyPolicy" className="text-gray-400 hover:text-white transition-colors">
 							Privacy Policy
 						</Link>
 					</div>
