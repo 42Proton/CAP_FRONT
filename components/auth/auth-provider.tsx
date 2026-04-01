@@ -14,5 +14,9 @@ export default function AuthProvider({
 		fetchMe();
 	}, [fetchMe]);
 
-	return <>{children}</>;
+	return(
+		<>
+			{children}
+		</>
+	);
 }
